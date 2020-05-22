@@ -1,0 +1,19 @@
+.holder {
+    position: relative;
+}
+.dropdown {
+    position: absolute;
+    display: none;
+    z-index: 9999;
+    width: 100%;
+    cursor: pointer;
+    background-color: #F5F7FD;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
+
+input:focus + .dropdown {
+    display: block;
+    
+}
